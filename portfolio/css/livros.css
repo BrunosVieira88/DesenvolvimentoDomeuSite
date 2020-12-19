@@ -1,0 +1,250 @@
+header{
+	border-bottom: 1px solid #FFFFFF;
+}
+/*aqui muda a parte superior do codigo*/
+#cabecalho{
+
+	font-size: 65px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	background: radial-gradient(#DCDCDC,#C0C0C0);
+	box-shadow: 2px 2px 4px #000000;
+
+}
+.estilo{
+	font-style: italic;
+}
+
+
+
+/*navegação do usuario*/
+#navegacao{
+
+	
+	float: left;
+	color:white;
+	text-shadow: 2px 2px 2px #4682B4;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0 10px 520px;
+	position: absolute;
+	top: -10px;
+
+
+
+}
+#navegacao a{
+	text-decoration: none;
+	color: white;
+
+}
+/*ocultei o menu principal o guanabara falou que era pra buscas no futuro*/
+#menuprincipal{
+			font-size: 20px;
+			position: absolute;
+			background:#778899;
+			border-radius: 8px 8px;
+			top: 100px;
+			right: 0px;
+}
+
+
+/*coloca o menu livros etc em linha */
+#navegacao li{
+
+	display: inline-block;
+	background:#778899;
+	padding: 2px;
+	border-radius: 8px 8px;
+	font-size: 24px;
+	
+
+
+	
+	
+}
+
+/*efeitos quando passa o mouse por cima do menu*/
+#navegacao li:hover{
+	background: #606060;
+	transition: 1.9s;
+	font-size: 26.9px;
+}
+
+/*desenvolvimento bloco dos livros*/
+/*aqui formata topos os cabeçalhos dos textos*/
+.topo{
+	text-align: center;
+	font-size: 40px;
+	color:blue;
+	padding: 5px;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 100px;
+
+}
+/*altera ler primeiro titulo*/
+.topo01{
+	background:#DCDCDC;
+	width: 700px;
+	border-radius: 10px;
+	margin-left: 250px;
+	margin-top: 40px;
+	text-shadow: 2px 1px 2px #000000;
+	box-shadow: 2px 1px 4px #000000;
+
+
+
+
+}
+#apresentacao{
+	
+	width: 1200px;
+	text-align: center;
+	margin-left:20px;
+	padding: 40px;
+	font-size: 24px;
+	line-height: 30px;
+	
+
+}
+.primeiro{
+	float: left;
+	width: 700px;
+	padding: 8px;
+	border-right: 1px solid #000000;
+	margin-right: 50px;
+
+}
+.topo02{
+	background:#DCDCDC;
+	width: 400px;
+	text-align: center;
+	margin-right: 10px;
+	font-size: 30px;
+	color:blue;
+	margin-left: 120px;
+	text-shadow: 1px 1px 2px #000000;
+	box-shadow: 2px 1px 4px #000000;
+	border-radius: 10px;
+
+}
+.texto{
+	padding: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	margin-right: 40px;
+
+}
+.segundo{
+	margin-right: 10px;
+	margin-left: 30px;
+	text-align: center;
+	padding: 8px;
+}
+.topo03{
+	background:#DCDCDC;
+
+	text-align: center;
+	height: 30px;
+	width: 500px;
+	font-size: 30px;
+	color:blue;
+	text-shadow: 1px 1px 2px #000000;
+	box-shadow: 2px 1px 4px #000000;
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 750px;
+
+}
+.texto02{
+	padding: 50px;
+	font-size: 18px;
+	line-height: 30px;
+
+
+}
+
+
+/*cuida do rodape da pagina */
+#rodape{
+	
+	font: normal arial;
+	text-align: center;
+	font-size: 35px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	clear: left;
+	background:radial-gradient(#545454,#5454AA);
+	height: auto;
+	padding: 20px;
+	width: auto;
+	height: 64px;
+	margin-top: 20px;
+
+}
+
+
+/*aqui gera o funco redondo*/
+.redes{
+	
+	border-radius: 50%;
+	float: left;
+
+}
+/*aqui faz o efeito de levantar da tela e a sombra */
+.redes:hover{
+	cursor: pointer;
+	transform: translateY(-5px);
+	box-shadow: 4px 30px 16px 0 rgba(50,50,50,0.45);
+}
+/*ajusta o parametros das imagens do facebook e instagram*/
+.imagens{
+	width:50px; 
+	height:50px;
+	align-items: center;
+	margin: 4px 4px;
+	padding: 6px;
+	
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#face{
+	background-color: blue;
+	position: absolute;
+	right: 40px;
+	bottom: -1630px;
+	
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#insta{
+	background-color: red;
+	position: absolute;
+	right: 150px;
+	bottom: -1630px;
+
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#linkedin{
+	position: absolute;
+	right: 350px;
+	bottom: -1620px;
+	color:black;
+
+
+}
+/*formata o link do linkdin */
+.redes#linkedin a{
+
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+	margin-right: -70px;
+}	
+
+
+/*cuida da formatação do rodape da pagina*/
+
+
+
+
+

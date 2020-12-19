@@ -1,0 +1,1 @@
+window.alert("Esta pagina esta em construção, podendo apresentar alguns erros em sua navegação!")

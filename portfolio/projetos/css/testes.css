@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+header{
+	border-bottom: 1px solid #FFFFFF;
+}
+/*aqui muda a parte superior do codigo*/
+#cabecalho{
+
+	font-size: 65px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	background: radial-gradient(#DCDCDC,#C0C0C0);
+	box-shadow: 2px 2px 4px #000000;
+
+}
+.estilo{
+	font-style: italic;
+}
+
+
+
+/*navegação do usuario*/
+#navegacao{
+
+	
+	float: left;
+	color:white;
+	text-shadow: 2px 2px 2px #4682B4;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0 10px 520px;
+	position: absolute;
+	top: -10px;
+
+
+
+}
+#navegacao a{
+	text-decoration: none;
+	color: white;
+
+}
+/*ocultei o menu principal o guanabara falou que era pra buscas no futuro*/
+#menuprincipal{
+	font-size: 20px;
+			position: absolute;
+			background:#778899;
+			border-radius: 8px 8px;
+			top: 100px;
+			right: 0px;
+}
+
+
+/*coloca o menu livros etc em linha */
+#navegacao li{
+
+	display: inline-block;
+	background:#778899;
+	padding: 2px;
+	border-radius: 8px 8px;
+	font-size: 24px;
+	
+
+
+}
+
+/*efeitos quando passa o mouse por cima do menu*/
+#navegacao li:hover{
+	background: #606060;
+	transition: 1.9s;
+	font-size: 26.9px;
+}
+#projetos{
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	color:gray;
+	margin-left: -100px;
+	text-shadow: 2px 1px 2px black;
+}
+#links{
+	font-size: 20px;
+	padding: 20px ;
+	margin: 0px 50px;
+	
+	
+}
+.links-a{
+	padding: 10px 20px;
+	background:#778899;
+	border-radius: 8px;
+	margin: 0px 5px;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px black;
+	color:white;
+
+
+}
+.links-a:hover{
+
+	font-size: 20.9px;
+	text-shadow: 1px 1px 7px black;
+	transition: 1s;
+}
+
+
+
+
+
+
+/*codigo css sem o cabeçalho*/
+#todostr{
+	margin: 20px 350px;	
+	border-spacing: 1px;
+	border-color: grey;
+	border:1;
+	width: 600px;
+	height: 200px;
+}
+#ca{
+	font-size: 40px;
+	text-align:center;
+	
+	text-shadow: 1px 3px 2px black;
+	color: white;
+}
+#ca h1{
+	background: grey;
+	width: 600px;
+	margin: 30px 350px;
+	border-radius: 55px;
+	box-shadow: 1px 2px 3px black;
+}
+#texto{
+	text-align: center;
+	font-size: 24px; 
+
+}
+
+.nomes{
+	text-align: center;
+	padding: 10px;
+	font-weight: bold; 
+	color:white;
+	background: grey;
+	text-shadow: 2px 2px 2px black;
+	
+}
+.peso{
+	text-align: center;
+	padding: 10px;
+	font-weight: bold; 
+	color:#000000;
+	background:#E0FFFF;
+
+}
+.altura{
+	text-align: center;
+	padding: 10px;
+	font-weight: bold; 
+	color:#000000;
+	background: #E0FFFF;
+
+}
+.imc{
+	text-align: center;
+	padding: 10px;
+	font-weight: bold; 
+	color:#000000;
+	background: #E0FFFF;
+
+}
+.erro{
+		background: red;
+}
+.fundo{
+		background:#00008B;
+}
+/* aqui começa os estilos na pagina html referente ao preenchimento de ficha*/
+
+#titulo-form{
+	text-shadow: 2px 2px 2px black;
+	font-size:30px;
+	font-style: italic;
+	text-align: center;
+	background: grey;
+	color:white;
+	width: 400px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px black;
+
+}
+.grupo{
+	display: inline-block;
+	margin: 5px;
+	padding: 15px;
+	font-style: italic;
+	font-weight: bold;
+	font-size:20px;
+
+
+}
+.bto-principal{
+
+	padding: 15px 20px;
+	margin: 15px 60px;
+	border-radius: 8px;
+	background: orange;
+	font-weight: bold;
+	transition: 0.9s ;
+	color: white;
+	cursor: pointer;
+	
+
+
+}
+#troca{
+	text-align: center;
+	font-size: 40px; 
+	text-shadow: 2px 2px 2px black;
+	background: grey;
+	box-shadow: 2px 2px 2px black;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;
+	width: 800px;
+
+
+}
+#adicionar-paciente:hover{
+
+	
+	background: darkorange; 
+	border-radius: 10px;
+	width: 10%;
+}
+#altura{
+
+	border-radius: 5px;
+	padding:  5px 5px;
+	border-color: black;
+
+}
+#peso{
+
+	border-radius: 5px;
+	padding:  5px 5px;
+	border-color: black;
+
+}
+#nome{
+	border-radius: 5px;
+	padding:  5px 5px;
+	border-color: black;
+
+}
+.container{
+	background: #DCDCDC;
+
+}
+

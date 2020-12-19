@@ -1,0 +1,154 @@
+body{
+	background:radial-gradient(#545454,#5454AA);
+	height: auto;
+}
+header{
+	
+	
+}
+figure{
+
+	position: relative;
+
+}
+#navegacao{
+
+	font-size: 28px;
+	float: left;
+	color:white;
+	text-shadow: 2px 2px 2px #4682B4;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0 10px 520px;
+	position: absolute;
+	top: 200px;
+
+}
+#menuprincipal{
+	display: none;
+}
+/*coloca o menu livros etc em linha */
+#navegacao li{
+
+	display: inline-block;
+	background:#778899;
+	padding: 2px;
+	border-radius: 8px 8px;
+
+}
+/*efeitos quando passa o mouse por cima do menu*/
+#navegacao li:hover{
+	background: #606060;
+	transition: 1.9s;
+	font-size: 26.9px;
+}
+#foto{
+	width: auto;
+	height:420.2px;
+	box-shadow: 5px 4px 8px #000000;
+	float: left;
+	border:solid 1px #FFFFFF;
+}
+img{
+		width: 290px;
+		height: 420px;
+		margin: 0 500px;
+}
+
+figure figcaption{
+	position: absolute;
+	top: 0px;
+	color:white;
+	background-color: grey;
+	opacity: 0;
+
+	width: 100%;
+	height: 100%;
+
+}
+figure figcaption p {
+	padding:180px 60px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px
+
+
+}
+figure figcaption:hover{
+	opacity: 0.4;
+}
+
+/*controla parte branca do site atras do texto */
+section{
+	background: #FFFFFF;
+	height: auto;
+	width: 1450px;
+
+}
+
+/*formatação do texto */
+#texto{
+	clear: left;
+	font: calibri;
+	text-align: justify;
+	text-align: center;
+	width: 800px;
+	font-size: 44px;
+	padding: 55px 60px 0 100px;
+	margin: auto;
+	text-indent: 0px;
+	line-height: 54px;
+	width: auto;
+	height: 1100px;
+	text-shadow: 1px 1px 1px blue;
+}
+
+.estilo{
+	font-style: italic;
+}
+/*aqui muda a parte superior do codigo*/
+#cabecalho{
+
+	font-size: 65px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	background: radial-gradient(#708090,#B0C4DE);
+	text-align: center;
+	height: 150px;
+	width: 1250px;
+
+}
+.links{
+	font: normal verdana;
+	text-align: center;
+	font-size: 55px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	padding: 20px;
+}
+	
+.links a{
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+
+/*cuida da formatação do rodape da pagina*/
+
+
+#rodape{
+	
+	font: normal arial;
+	text-align: center;
+	font-size: 35px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	clear: left;
+	background:radial-gradient(#545454,#5454AA);
+	height: auto;
+	padding: 120px 10px;
+	width: 1250px;
+	height: 100px;
+
+}

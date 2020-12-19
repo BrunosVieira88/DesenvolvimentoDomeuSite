@@ -1,0 +1,224 @@
+
+header{
+	border-bottom: 1px solid #FFFFFF;
+}
+/*aqui muda a parte superior do codigo*/
+#cabecalho{
+
+	font-size: 65px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	background: radial-gradient(#DCDCDC,#C0C0C0);
+	box-shadow: 2px 2px 4px #000000;
+
+}
+.estilo{
+	font-style: italic;
+}
+
+
+
+/*navegação do usuario*/
+#navegacao{
+
+	
+	float: left;
+	color:white;
+	text-shadow: 2px 2px 2px #4682B4;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0 10px 520px;
+	position: absolute;
+	top: -10px;
+
+
+
+}
+#navegacao a{
+	text-decoration: none;
+	color: white;
+
+}
+/*ocultei o menu principal o guanabara falou que era pra buscas no futuro*/
+#menuprincipal{
+	font-size: 20px;
+			position: absolute;
+			background:#778899;
+			border-radius: 8px 8px;
+			top: 100px;
+			right: 0px;
+}
+
+
+/*coloca o menu livros etc em linha */
+#navegacao li{
+
+	display: inline-block;
+	background:#778899;
+	padding: 2px;
+	border-radius: 8px 8px;
+	font-size: 24px;
+	
+
+
+}
+
+/*efeitos quando passa o mouse por cima do menu*/
+#navegacao li:hover{
+	background: #606060;
+	transition: 1.9s;
+	font-size: 26.9px;
+}
+#projetos{
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	color:gray;
+	margin-left: -100px;
+	text-shadow: 2px 1px 2px black;
+}
+#links{
+	font-size: 20px;
+	padding: 20px ;
+	margin: 0px 50px;
+	
+	
+}
+.links-a{
+	padding: 10px 20px;
+	background:#778899;
+	border-radius: 8px;
+	margin: 0px 5px;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px black;
+	color:white;
+
+
+}
+.links-a:hover{
+
+	font-size: 20.9px;
+	text-shadow: 1px 1px 7px black;
+	transition: 1s;
+
+}
+
+
+/*Define  o titulo da nossa pagina */
+#horadodia{
+
+	font: normal 35pt arial;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin:auto;
+	text-shadow: 4px 4px 3px #708090;
+
+}
+/*edita a mensagem em cima da foto*/
+#mensagem{
+
+	text-align: center;
+}
+/*aqui editamos a foto */
+#foto{
+
+	padding: -30px
+	width: 300px;
+	height:300px;
+}
+
+
+/*mostra a caixa branca no meio da tela*/
+section{
+	font:italic 20pt arial;
+	padding: 15px;
+	background: white;
+	width: 500px;
+	height: 400px;
+	margin: auto;
+	box-shadow:  4px 4px #708090;
+	border-radius: 8px;
+}
+
+
+
+/*cuida da formatação do rodape da pagina*/
+
+
+#rodape{
+	
+	font: normal arial;
+	text-align: center;
+	font-size: 35px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	clear: left;
+	background:radial-gradient(#545454,#5454AA);
+	height: auto;
+	padding: 20px;
+	width: auto;
+	height: 64px;
+
+	margin-top: 250px;
+
+
+
+}
+/*aqui gera o funco redondo*/
+.redes{
+	
+	border-radius: 50%;
+	float: left;
+
+}
+/*aqui faz o efeito de levantar da tela e a sombra */
+.redes:hover{
+	cursor: pointer;
+	transform: translateY(-5px);
+	box-shadow: 4px 30px 16px 0 rgba(50,50,50,0.45);
+}
+/*ajusta o parametros das imagens do facebook e instagram*/
+.imagens{
+	width:50px; 
+	height:50px;
+	align-items: center;
+	margin: 4px 4px;
+	padding: 6px;
+	
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#face{
+	background-color: blue;
+	position: absolute;
+	right: 40px;
+	bottom: 0px;
+	
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#insta{
+	background-color: red;
+	position: absolute;
+	right: 150px;
+	bottom: 0px;
+
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#linkedin{
+	position: absolute;
+	right: 350px;
+	bottom: 30px;
+	color:white;
+
+
+}
+/*formata o link do linkdin */
+.redes#linkedin a{
+
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+	margin-right: -70px;
+}	
+
+

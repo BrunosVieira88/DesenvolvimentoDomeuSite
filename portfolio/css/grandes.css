@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+header{
+	border-bottom: 1px solid #FFFFFF;
+}
+/*aqui muda a parte superior do codigo*/
+#cabecalho{
+
+	font-size: 65px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	background: radial-gradient(#DCDCDC,#C0C0C0);
+	box-shadow: 2px 2px 4px #000000;
+
+}
+.estilo{
+	
+	font-family: 'Dancing Script', cursive;
+}
+
+
+
+/*navegação do usuario*/
+#navegacao{
+
+	
+	float: left;
+	color:white;
+	text-shadow: 2px 2px 2px #4682B4;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0 10px 520px;
+	position: absolute;
+	top: -10px;
+
+
+
+}
+#navegacao a{
+	text-decoration: none;
+	color: white;
+
+}
+/*ocultei o menu principal o guanabara falou que era pra buscas no futuro*/
+#menuprincipal{
+	display: none;
+
+}
+
+
+/*coloca o menu livros etc em linha */
+#navegacao li{
+
+	display: inline-block;
+	background:#778899;
+	padding: 2px;
+	border-radius: 8px 8px;
+	font-size: 24px;
+	
+
+
+	
+	
+}
+
+/*efeitos quando passa o mouse por cima do menu*/
+#navegacao li:hover{
+	background: #606060;
+	transition: 1.9s;
+	font-size: 26.9px;
+}
+
+figure{
+
+	position: relative;
+
+}
+#alinhar{
+	padding: 60px;
+}
+#foto{
+	width: auto;
+	height:420.2px;
+	box-shadow: 5px 4px 8px #000000;
+	float: left;
+	border:solid 1px #FFFFFF;
+
+}
+/*dimensiona o tamanho da imagem*/
+img{
+		width: 290px;
+		height: 420px;
+}
+figure figcaption{
+	position: absolute;
+	top: 0px;
+	color:white;
+	background-color: grey;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+
+}
+figure figcaption p {
+	padding:180px 60px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px
+
+
+}
+figure figcaption:hover{
+	opacity: 0.4;
+}
+
+section{
+	background: #DCDCDC;
+	height: auto;
+
+}
+
+/*formatação do texto */
+#texto{
+
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-align: justify;
+	text-align: center;
+	width: 600px;
+	font-size: 24px;
+	padding: 40px 60px 0 350px;
+	margin: auto;
+	text-indent: 0px;
+	line-height: 24px;
+	background: white;
+	box-shadow: 4px 8px 6px black;
+}
+
+
+
+.links{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	font-size: 25px;
+	color:white;
+	padding: 20px;
+}
+	
+.links a{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 2px 2px 1px #EE82EE;
+
+}
+
+
+/*cuida da formatação do rodape da pagina*/
+
+
+#rodape{
+	
+	font: normal arial;
+	text-align: center;
+	font-size: 35px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	clear: left;
+	background:radial-gradient(#545454,#5454AA);
+	height: auto;
+	padding: 20px;
+	width: auto;
+	height: 64px;
+
+}
+/*aqui gera o funco redondo*/
+.redes{
+	
+	border-radius: 50%;
+	float: left;
+
+}
+/*aqui faz o efeito de levantar da tela e a sombra */
+.redes:hover{
+	cursor: pointer;
+	transform: translateY(-5px);
+	box-shadow: 4px 30px 16px 0 rgba(50,50,50,0.45);
+}
+/*ajusta o parametros das imagens do facebook e instagram*/
+.imagens{
+	width:50px; 
+	height:50px;
+	align-items: center;
+	margin: 4px 4px;
+	padding: 6px;
+	
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#face{
+	background-color: blue;
+	position: absolute;
+	right: 40px;
+	bottom: -300px;
+	
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#insta{
+	background-color: red;
+	position: absolute;
+	right: 150px;
+	bottom: -300px;
+
+}
+/*cuida do fundo da tela e na posição do icone na pagina*/
+.redes#linkedin{
+	position: absolute;
+	right: 350px;
+	bottom: -280px;
+	color:white;
+
+
+}
+/*formata o link do linkdin */
+.redes#linkedin a{
+
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+	margin-right: -70px;
+}	
